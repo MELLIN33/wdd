@@ -1,0 +1,126 @@
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background-color: #D0CAF5;}
+
+#container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #312F59;
+}
+
+.scroll {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    margin: 0 3%;
+    object-fit: contain;    
+    background: #D0CAF5;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+#heading {
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#title {
+    padding-left: 45%;
+    padding-top: 1.4%;
+    font-family: 'Josefin Sans';
+    font-size: 37pt;
+}
+
+#navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    white-space: nowrap;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 35pt;
+}
+
+#content {
+    position: relative;
+    background-color: #D0CAF5;
+    height: fit-content;
+}
+
+.scroll {
+    height:400px;
+    width:400px;
+}
+
+.front {
+    width: 100%;
+    height: 900px
+}
+
+#footer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20%;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 150%;
+    color: #F6E294;
+    background-color: #312F59;
+    padding-bottom: 5%;
+}
+
+
+#slider1 {
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+#slider2 {
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+
+label {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+   background-color: rgb(204, 204, 204);
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
