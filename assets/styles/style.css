@@ -110,17 +110,21 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background-c
     overflow-x: scroll;
 }
 
-label {
-    font-family: 'Poiret One', sans-serif;
-    font-size: 15px;
+@keyframes popUp {
+    0% { 
+        margin-left: 0%; 
+    }
+    50% { 
+        margin-left: 300px;
+        margin-right: 300px; 
+    }
+    100% { 
+        margin-left: 0%; 
+    }
 }
-
-input[type=submit]:hover {
-   background-color: rgb(204, 204, 204);
-}
-
-
-a {
-    text-decoration: none;
-    color: black;
+#animated {
+    animation-name: popUp;
+    animation-timing-function:ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
 }
