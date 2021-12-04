@@ -122,6 +122,12 @@ html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background-c
         margin-left: 0%; 
     }
 }
+#heading {
+    animation-name: popUp;
+    animation-timing-function:ease-in-out;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
 #animated {
     animation-name: popUp;
     animation-timing-function:ease-in-out;
